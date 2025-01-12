@@ -3,6 +3,7 @@ import './index.scss';
 import Loader from 'react-loaders';
 import AnimatedLetters from '../AnimateLetters';
 import emailjs from '@emailjs/browser';
+import WhiteWave from '../../assets/images/swirl.png'
 
 const Contact = () => {
     const refForm = useRef();
@@ -59,6 +60,9 @@ const Contact = () => {
                             </ul>
                         </form>
                     </div>
+                </div>
+                <div className='image'>
+                    <img src={WhiteWave} alt="white wave" />
                 </div>
             </div>
             <Loader type="ball-clip-rotate-pulse" />

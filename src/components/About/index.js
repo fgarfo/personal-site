@@ -4,6 +4,7 @@ import AnimatedLetters from '../AnimateLetters';
 import Loader from 'react-loaders';
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
 import { faPython, faJava, faJs, faReact, faHtml5, faCss3Alt} from '@fortawesome/free-brands-svg-icons';
+import WhiteWave from '../../assets/images/swirl.png'
 
 const About = () => {
     return (
@@ -16,10 +17,15 @@ const About = () => {
                             index={15}
                         />
                     </h1>
-                    <p>My name is Mawufemor Garfo, but I prefer to go by Femor. I am a Junior at the University of Arizona pursuing a bachelor's degree in Computer Science with a minor in Game Design and Development.</p>
-                    <p>Learning is my greatest passion, and I have decided to utilize that asset in my pursuit of a career in Software Engineering.</p>
-                    <p>I am seeking an opportunity to work in an environment where I can offer my set of skills to a future employer and gain new experiences that will enhance these skills. 
-                        I am confident that I possess the diverse tools and work ethic necessary to be a valuable asset to a team of other Software Engineers alike.</p>
+                    <div className='paragraph'>
+                        <p>My name is Mawufemor Garfo, but I prefer to go by Femor. I am a recent Computer Science B.A. graduate of the University of Arizona.
+                            I love playing volleyball, cooking, thrifting, playing the drums/guitar, and socializing!</p>
+                        <p>Dating back to high school, my love for software and hardware development blossomed most when my work did some good for people. My pursuit 
+                            in this career has been to provide and aid in building a service that is impactful to the lives of many. I have and 
+                            will continue to mold and adapt myself to stay abreast with the growing industry of Software Engineering in order to do so. </p>
+                        <p>I bring motivation, passion, and a track record of delivering high quality work, and I am confident that my contribution will 
+                            aid to improve the overall service and success of my potential team.</p>
+                    </div>
                 </div>
 
                 <div className='stage-cont'>
@@ -43,6 +49,9 @@ const About = () => {
                     </div>
                     <div className='resume'>
                 </div>
+                </div>
+                <div className='image'>
+                    <img src={WhiteWave} alt="white wave" />
                 </div>
             </div>
             <Loader type="ball-clip-rotate-pulse" />
