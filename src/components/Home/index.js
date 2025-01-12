@@ -8,7 +8,7 @@ import WhiteWave from '../../assets/images/swirl.png'
 const Home = () => {
     const [letterClass] = useState('text-animate')
     const nameArray = [' ', 'F', 'e', 'm', 'o', 'r', ' ', 'G', 'a', 'r', 'f', 'o', ' ', '—']
-    const jobArray = ['a', 'n', ' ', 'e', 'n', 't', 'r', 'y', ' ', 'l', 'e', , 'v', , 'e', , 'l', ' ', 'S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 'E', 'n', 'g', 'i', 'n', 'e', 'e', 'r']
+    const jobArray = ['a', 'n', ' ', 'e', 'n', 't', 'r', 'y', ' ', 'l', 'e', 'v', 'e', 'l', ' ', 'S', 'o', 'f', 't', 'w', 'a', 'r', 'e', ' ', 'E', 'n', 'g', 'i', 'n', 'e', 'e', 'r']
     return (
         <>
             <div className="container home-page">
